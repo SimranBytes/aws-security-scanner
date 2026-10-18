@@ -1,0 +1,16 @@
+{
+  "account_id": "123456789012",
+  "region": "ap-south-1",
+  "generated_at": "2026-09-20T10:15:04.187669+00:00",
+  "finding_count": 1,
+  "findings": [
+    {
+      "resource": "user:Admin",
+      "check": "Overly Permissive IAM Policy",
+      "severity": "HIGH",
+      "cis_control": "CIS 1.16",
+      "description": "user 'Admin' has AdministratorAccess attached directly.",
+      "remediation": "Follow least privilege: scope down to only the permissions this identity actually needs, and prefer group/role-based access."
+    }
+  ]
+}
